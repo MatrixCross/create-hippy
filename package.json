@@ -1,10 +1,14 @@
 {
   "name": "create-hippy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
+  "type": "module",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "bumpp"
   },
   "files": [
     "index.js",

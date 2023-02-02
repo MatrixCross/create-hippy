@@ -52,7 +52,7 @@ async function init() {
   let template = argv.template || argv.t
   let defaultVersion = argv.version || dayjs().format('YYYY.MMDD.HHmm')
 
-  const defaultTargetDir = 'mz-project'
+  const defaultTargetDir = 'hippy-project'
   const getProjectName = () =>
     targetDir === '.' ? path.basename(path.resolve()) : targetDir
 
