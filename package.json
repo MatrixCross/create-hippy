@@ -1,0 +1,26 @@
+{
+  "name": "create-hippy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "bin": {
+    "create-hippy": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bumpp": "^8.2.1",
+    "dayjs": "^1.11.7",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.7",
+    "prompts": "^2.4.2"
+  }
+}
